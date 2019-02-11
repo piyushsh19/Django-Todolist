@@ -28,9 +28,14 @@ $ source virtualenv_name/Scripts/activate
 pip freeze > requirements.txt
 ```
 
+# make migrations
+```bash
+$ python manage.py migrate
+```
+
 # run main file 
 ```bash
-$ python manage.py
+$ python manage.py runserver
 ```
 
 *Note  : Make sure you cd into the *clone* folder before performing the command above.*
